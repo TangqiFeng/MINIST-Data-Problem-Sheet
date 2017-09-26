@@ -14,5 +14,10 @@ nolab = f.read(4)
 nolab = int.from_bytes(nolab,'big')
 print("number of labels is:",nolab)
 
+#labels = []
+#for i in range(nolab):
+#    labels.append(f.read(1))
+labels = [f.read(1) for i in range(nolab)]
+
 
  
