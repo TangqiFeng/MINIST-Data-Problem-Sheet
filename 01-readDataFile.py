@@ -18,6 +18,9 @@ print("number of labels is:",nolab)
 #for i in range(nolab):
 #    labels.append(f.read(1))
 labels = [f.read(1) for i in range(nolab)]
+labels = [int.from_bytes(label,'big') for label in labels]
+print(labels)
+f.close
 
 
  
