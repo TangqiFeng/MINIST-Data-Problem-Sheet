@@ -8,7 +8,11 @@ import gzip
 f = gzip.open('data/t10k-labels-idx1-ubyte.gz','rb')
 # read firt 4 bytes
 magic = f.read(4)
-print(int.from_bytes(magic,'big'))
+print("magic number is: "+str(int.from_bytes(magic,'big')))
+# read next 4 bytes
+nolab = f.read(4)
+nolab = int.from_bytes(nolab,'big')
+print("number of labels is:",nolab)
 
 
  
