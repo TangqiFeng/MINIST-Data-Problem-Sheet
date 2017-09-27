@@ -101,3 +101,6 @@ ENV/
 
 # mypy
 .mypy_cache/
+train_images/.DS_Store
+train_images/Thumbs.db
+.DS_Store
