@@ -7,7 +7,7 @@ import readDataFile
 import numpy as np
 # the third image in the training set
 myimage = readDataFile.train_images[3]
-maimage = np.array(myimage)
+myimage = np.array(myimage)
 for row in myimage:
     for col in row:
         print('.' if col<128 else '/',end='')
