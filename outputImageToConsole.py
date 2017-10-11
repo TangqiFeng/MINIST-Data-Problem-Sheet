@@ -5,12 +5,19 @@
 # //import read_data_file.py   
 import readDataFile
 import numpy as np
-# the third image in the training set
-myimage = readDataFile.train_images[3]
-myimage = np.array(myimage)
-for row in myimage:
-    for col in row:
-        print('.' if col<128 else '/',end='')
-    print()
+# read image in the training set
+def readImage(no):
+    myimage = readDataFile.train_images[no]
+    myimage = np.array(myimage)
+    return myimage
+# print image to console
+def printImage(myimage):
+    for row in myimage:
+        for col in row:
+            print('.' if col<128 else '/',end='')
+        print()
+
+# let's say get the third image of the training set
+printImage(readImage(3))
 # train_images[3] is 1
 # readDataFile.train_labels[3] ==> 1
