@@ -16,8 +16,9 @@ def printImage(myimage):
         for col in row:
             print('.' if col<128 else '/',end='')
         print()
-
+# for example
 # let's say get the third image of the training set
-printImage(readImage(3))
+number = 3
+printImage(readImage(number))
 # train_images[3] is 1
 # readDataFile.train_labels[3] ==> 1
