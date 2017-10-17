@@ -23,3 +23,6 @@ just download the zip file
 go to the repository folder, open the command-line interpreter or terminal(mac), type `python + title.py` (title is the name of the file you wnat to excute)
 
 ## python3 is needed, [Install tutorial](https://anaconda.org/anaconda/python) 
+### In addition, extensions: [PIL.Image](http://pillow.readthedocs.io/en/4.3.x/reference/Image.html), 　[gzip](https://docs.python.org/3/library/gzip.html), 　[numpy](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html) are need, make sure it is installed before run python files
+* ``` $ pip install pil ```
+* ``` $ pip install numpy ```
