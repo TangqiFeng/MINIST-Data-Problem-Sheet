@@ -34,4 +34,5 @@ type ```$ python + title.py```
 
 ## python3 is needed, [Install tutorial](https://anaconda.org/anaconda/python) 
 **In addition, extensions: [PIL.Image](http://pillow.readthedocs.io/en/4.3.x/reference/Image.html), [gzip](https://docs.python.org/3/library/gzip.html), [numpy](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html) are need, make sure it is installed before run python files**
+
 ``` $ pip install pil / gzip / numpy ```
